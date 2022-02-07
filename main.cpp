@@ -135,8 +135,9 @@ float returnAFloat(char choice = 'y')
 /*
  5)
  */
-char getALetter()
+char getALetter(int letterIndex = 0, char butNotThisLetter = 'z')
 {
+    ignoreUnused(letterIndex, butNotThisLetter);
     return {};
 }
 

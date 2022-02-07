@@ -118,8 +118,9 @@ int caloriesBurned(int hoursSlept)
 /*
  3)
  */
-void scooped()
+void scooped(float howDeepToScoop = 1.0f, float howBeepToBoop = 12.02f)
 {//an empty function for scooping
+    ignoreUnused(howDeepToScoop, howBeepToBoop);
 }
 
 /*

@@ -101,45 +101,45 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
- void buildHouse(int squareFeet = 0)
- {
-      ignoreUnused(squareFeet);
-      return;
- }
+void buildHouse(int squareFeet = 0)
+{
+    ignoreUnused(squareFeet);
+    return;
+}
 
 /*
  2)
  */
- int caloriesBurned(int hoursSlept)
- {
-      ignoreUnused(hoursSlept);
-      return {};
- }
+int caloriesBurned(int hoursSlept)
+{
+    ignoreUnused(hoursSlept);
+    return {};
+}
 
 /*
  3)
  */
- void scooped()
- {
-      return;
- }
+void scooped()
+{
+    return;
+}
 
 /*
  4)
  */
-  float returnAFloat(char choice = 'y')
-  {
-      ignoreUnused(choice);
-      return {};
-  }
+float returnAFloat(char choice = 'y')
+{
+    ignoreUnused(choice);
+    return {};
+}
 
 /*
  5)
  */
- char getALetter()
- {
-      return {};
- }
+char getALetter()
+{
+    return {};
+}
 
 /*
  6)
@@ -153,38 +153,38 @@ void doWork(int firstParam = 1, int secondParam = 10)
 /*
  7)
  */
- double calculateTotalPay(int monthsWorked, double salary = 10000000.00)
- {
-      ignoreUnused(salary, monthsWorked);
-      return {};
- }
+double calculateTotalPay(int monthsWorked, double salary = 10000000.00)
+{
+    ignoreUnused(salary, monthsWorked);
+    return {};
+}
 
 /*
  8)
  */
- float makeItFloat(int toFloat = 9)
- {
-      ignoreUnused(toFloat);
-      return {};
- }
+float makeItFloat(int toFloat = 9)
+{
+    ignoreUnused(toFloat);
+    return {};
+}
 
 /*
  9)
  */
- void doNothing(bool unecessary = false)
- {
-      ignoreUnused(unecessary);
-      return;
- }
+void doNothing(bool unecessary = false)
+{
+    ignoreUnused(unecessary);
+    return;
+}
 
 /*
  10)
  */
- int howManyFreeBurgers(int wholeBurgers = 0)
- {
-      ignoreUnused(wholeBurgers);
-      return {};
- }
+int howManyFreeBurgers(int wholeBurgers = 0)
+{
+    ignoreUnused(wholeBurgers);
+    return {};
+}
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH

@@ -103,8 +103,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
  void buildHouse(int squareFeet = 0)
  {
-   ignoreUnused(squareFeet);
-   return;
+      ignoreUnused(squareFeet);
+      return;
  }
 
 /*
@@ -112,8 +112,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
  int caloriesBurned(int hoursSlept)
  {
-   ignoreUnused(hoursSlept);
-    return {};
+      ignoreUnused(hoursSlept);
+      return {};
  }
 
 /*
@@ -121,7 +121,7 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
  void scooped()
  {
-   return;
+      return;
  }
 
 /*
@@ -129,9 +129,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
   float returnAFloat(char choice = 'y')
   {
-
-    ignoreUnused(choice);
-    return {};
+      ignoreUnused(choice);
+      return {};
   }
 
 /*
@@ -139,7 +138,7 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
  char getALetter()
  {
-   return {};
+      return {};
  }
 
 /*
@@ -147,7 +146,6 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
 void doWork(int firstParam = 1, int secondParam = 10)
 {
-
     ignoreUnused(firstParam, secondParam);
     return;
 }
@@ -157,9 +155,8 @@ void doWork(int firstParam = 1, int secondParam = 10)
  */
  double calculateTotalPay(int monthsWorked, double salary = 10000000.00)
  {
-   ignoreUnused(salary, monthsWorked);
-   return {};
-
+      ignoreUnused(salary, monthsWorked);
+      return {};
  }
 
 /*
@@ -167,9 +164,8 @@ void doWork(int firstParam = 1, int secondParam = 10)
  */
  float makeItFloat(int toFloat = 9)
  {
-
-   ignoreUnused(toFloat);
-   return {};
+      ignoreUnused(toFloat);
+      return {};
  }
 
 /*
@@ -177,9 +173,8 @@ void doWork(int firstParam = 1, int secondParam = 10)
  */
  void doNothing(bool unecessary = false)
  {
-
-   ignoreUnused(unecessary);
-   return;
+      ignoreUnused(unecessary);
+      return;
  }
 
 /*
@@ -187,9 +182,8 @@ void doWork(int firstParam = 1, int secondParam = 10)
  */
  int howManyFreeBurgers(int wholeBurgers = 0)
  {
-
-   ignoreUnused(wholeBurgers);
-   return {};
+      ignoreUnused(wholeBurgers);
+      return {};
  }
 
 /*

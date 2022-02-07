@@ -104,7 +104,6 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 void buildHouse(int squareFeet = 0)
 {
     ignoreUnused(squareFeet);
-    return;
 }
 
 /*
@@ -120,8 +119,7 @@ int caloriesBurned(int hoursSlept)
  3)
  */
 void scooped()
-{
-    return;
+{//an empty function for scooping
 }
 
 /*
@@ -147,7 +145,6 @@ char getALetter()
 void doWork(int firstParam = 1, int secondParam = 10)
 {
     ignoreUnused(firstParam, secondParam);
-    return;
 }
 
 /*
@@ -174,7 +171,6 @@ float makeItFloat(int toFloat = 9)
 void doNothing(bool unecessary = false)
 {
     ignoreUnused(unecessary);
-    return;
 }
 
 /*

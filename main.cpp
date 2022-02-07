@@ -16,13 +16,12 @@ video: Chapter 2 - Part 3
  
  1) Write down the names of the 6 major primitive types available in C++  here:
  
- 
- 
- 
- 
- 
- 
- 
+ int
+ unsigned int
+ float
+ double
+ bool
+ char
  
  
 2) for each primitive type, write out 3 variable declarations inside the variableDeclaration() function on line 59.
@@ -58,11 +57,34 @@ video: Chapter 2 - Part 3
 void variableDeclarations()
 {
     //example:
-    int number = 2; //declaration of a variable named "number", that uses the primitive type 'int', and the variable's initial value is '2'
+    int number1 = 2; //declaration of a variable named "number", that uses the primitive type 'int', and the variable's initial value is '2'
     
+    int fumber = 0;
+    int gumber = 5;
+    int bumber = 4;
+
+    float f1 = 1.0f;
+    float f2 = 2.0f;
+    float f3 = 3.2f;
+
+    double d1 = 1.0;
+    double d2 = 2.3;
+    double d3 = 2.0;
+
+    unsigned int ui1 = 1;
+    unsigned int ui2 = 2;
+    unsigned int ui3 = 100;
+
+    char c1 = 'a';
+    char c2 = 'z';
+    char c3 = 'f';
+
+    bool b1 = true;
+    bool b2 = true;
+    bool b3 = false;
 
     
-    ignoreUnused(number); //passing each variable declared to the ignoreUnused() function
+    ignoreUnused(number1, fumber, gumber, bumber, f1, f2, f3, d1, d2, d3, ui1, ui2, ui3, c1, c2, c3, b1, b2, b3); //passing each variable declared to the ignoreUnused() function
 }
 
 /*
@@ -79,42 +101,88 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
+void buildHouse(int squareFeet = 0)
+{
+    ignoreUnused(squareFeet);
+}
 
 /*
  2)
  */
+int caloriesBurned(int hoursSlept)
+{
+    ignoreUnused(hoursSlept);
+    return {};
+}
 
 /*
  3)
  */
+void scooped(float howDeepToScoop = 1.0f, float howBeepToBoop = 12.02f)
+{//an empty function for scooping
+    ignoreUnused(howDeepToScoop, howBeepToBoop);
+}
 
 /*
  4)
  */
+float returnAFloat(char choice = 'y')
+{
+    ignoreUnused(choice);
+    return {};
+}
 
 /*
  5)
  */
+char getALetter(int letterIndex = 0, char butNotThisLetter = 'z')
+{
+    ignoreUnused(letterIndex, butNotThisLetter);
+    return {};
+}
 
 /*
  6)
  */
+void doWork(int firstParam = 1, int secondParam = 10)
+{
+    ignoreUnused(firstParam, secondParam);
+}
 
 /*
  7)
  */
+double calculateTotalPay(int monthsWorked, double salary = 10000000.00)
+{
+    ignoreUnused(salary, monthsWorked);
+    return {};
+}
 
 /*
  8)
  */
+float makeItFloat(int toFloat = 9)
+{
+    ignoreUnused(toFloat);
+    return {};
+}
 
 /*
  9)
  */
+void doNothing(bool unecessary = false)
+{
+    ignoreUnused(unecessary);
+}
 
 /*
  10)
  */
+int howManyFreeBurgers(int wholeBurgers = 0)
+{
+    ignoreUnused(wholeBurgers);
+    return {};
+}
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
@@ -136,27 +204,27 @@ int main()
     auto carRented = rentACar(6, 2); 
     
     //1)
-    
+    buildHouse(3);
     //2)
-    
+    auto cals = caloriesBurned(8);
     //3)
-    
+    scooped();
     //4)
-    
+    auto flTemp = returnAFloat('n');
     //5)
-    
+    auto letter = getALetter();
     //6)
-    
+    doWork();
     //7)
-    
+    auto totalPay = calculateTotalPay(12, 144000.69);
     //8)
-    
+    auto iToF = makeItFloat(40);
     //9)
-    
+    doNothing();
     //10)
+    auto freeBurgers = howManyFreeBurgers(100);
     
-    
-    ignoreUnused(carRented);
+    ignoreUnused(carRented, cals, flTemp, letter, totalPay, iToF, freeBurgers);
     std::cout << "good to go!" << std::endl;
     return 0;    
 }
